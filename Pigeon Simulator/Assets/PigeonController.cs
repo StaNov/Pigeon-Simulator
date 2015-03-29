@@ -41,16 +41,22 @@ public class PigeonController : MonoBehaviour {
 		}
 
 		if (switchFlying) {
+			// pokud letím, sednu si na zem
+			// pokud jsem na zemi, vzlítnu do vzduchu
+			if (! isFlying) {
+				transform.Translate(0,0,2);
+			}
+
 			isFlying = ! isFlying;
 			switchFlying = false;
 		}
 		
 		if (rotateRight) {
-			transform.Rotate(0, 0, -turningSpeed);
+			transform.Rotate(0, 0, turningSpeed);
 		}
 		
 		if (rotateLeft) {
-			transform.Rotate(0, 0, turningSpeed);
+			transform.Rotate(0, 0, -turningSpeed);
 		}
 	}
 }
