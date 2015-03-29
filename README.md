@@ -8,6 +8,10 @@ Holub má omezené množství života. Život ubývá při kolizi s člověkem, 
 
 Hra je z ptačí perspektivy (obviously).
 
+## Aktuální hratelná verze
+
+http://stanov.github.io/Pigeon-Simulator
+
 ## Jak vznikl nápad
 
 Jednou před spaním jsem přemýšlel, o čem by se dala udělat hra.
