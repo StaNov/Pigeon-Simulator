@@ -3,13 +3,19 @@ using System.Collections;
 
 public class PigeonController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	private Rigidbody2D rigidbody2D;
+	public Transform headTransform;
+
+	void Awake () {
+		rigidbody2D = GetComponent<Rigidbody2D> ();
 	}
 	
-	// Update is called once per frame
 	void Update () {
+		
+	}
 	
+	void FixedUpdate () {
+		rigidbody2D.AddForce (Vector2.up);
+		transform.Rotate (Vector3.back);
 	}
 }
