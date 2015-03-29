@@ -5,6 +5,8 @@ public class PigeonController : MonoBehaviour {
 
 	private Rigidbody2D rigidbody2D;
 	public Transform headTransform;
+	public Transform bodyTransform;
+	public int flightSpeed = 10;
 
 	void Awake () {
 		rigidbody2D = GetComponent<Rigidbody2D> ();
@@ -15,7 +17,9 @@ public class PigeonController : MonoBehaviour {
 	}
 	
 	void FixedUpdate () {
-		rigidbody2D.AddForce (Vector2.up);
-		transform.Rotate (Vector3.back);
+		Vector2 directionToAddForce = headTransform.position - bodyTransform.position;
+		directionToAddForce = directionToAddForce * flightSpeed;
+		rigidbody2D.AddForce (directionToAddForce);
+		//transform.Rotate (Vector3.back);
 	}
 }
