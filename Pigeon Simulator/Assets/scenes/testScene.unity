@@ -389,7 +389,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   headTransform: {fileID: 1663967577}
   bodyTransform: {fileID: 131940301}
-  flightSpeed: 10
+  flightSpeed: 20
+  walkSpeed: 10
+  turningSpeed: 2
+  isFlying: 0
 --- !u!50 &2075368291
 Rigidbody2D:
   m_ObjectHideFlags: 0

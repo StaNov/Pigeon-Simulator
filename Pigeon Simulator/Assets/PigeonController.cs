@@ -13,6 +13,7 @@ public class PigeonController : MonoBehaviour {
 	private bool rotateRight = false;
 	private bool rotateLeft = false;
 	private bool goForward = false;
+	private bool switchFlying = false;
 
 	public bool isFlying = false;
 
@@ -24,7 +25,7 @@ public class PigeonController : MonoBehaviour {
 		rotateRight = Input.GetKey (KeyCode.RightArrow);
 		rotateLeft = Input.GetKey (KeyCode.LeftArrow);
 		goForward = Input.GetKey (KeyCode.UpArrow);
-
+		switchFlying = Input.GetKeyDown(KeyCode.RightControl);
 	}
 	
 	void FixedUpdate () {
@@ -37,6 +38,11 @@ public class PigeonController : MonoBehaviour {
 			// jsem na zemi a hráč mačká šipku nahoru -> pohybuj se dopředu
 			Vector2 directionToAddForceWalk = directionToAddForce * walkSpeed;
 			rigidbody2D.AddForce (directionToAddForceWalk);
+		}
+
+		if (switchFlying) {
+			isFlying = ! isFlying;
+			switchFlying = false;
 		}
 		
 		if (rotateRight) {
