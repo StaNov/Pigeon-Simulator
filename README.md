@@ -8,6 +8,8 @@ Holub má omezené množství života. Život ubývá při kolizi s člověkem, 
 
 Hra je z ptačí perspektivy (obviously).
 
+Vývoj hry provádím nepravidelně v přímém přenosu [na svém YouTube kanálu](https://www.youtube.com/user/xxxstanley). Pro zasílání upozornění o plánovaných přímých přenosech se můžeš stát mým odběratelem. Záznamy proběhlých přenosů najdeš [v tomto playlistu](https://www.youtube.com/playlist?list=PLE4fGQXgx2n3ECP-Hv2OTpnWRKSdHiSg9).
+
 ## Aktuální hratelná verze
 
 http://stanov.github.io/Pigeon-Simulator
