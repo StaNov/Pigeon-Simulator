@@ -16,7 +16,7 @@ http://stanov.github.io/Pigeon-Simulator
 
 ## Chci se zapojit!
 
-To je super! Byl bych rád, kdyby se na hře podílelo co nejvíc lidí - budeme z něj mít všichni radost a dáme do něj každej kus sebe!
+To je super! Byl bych rád, kdyby se na hře podílelo co nejvíc lidí - budeme z něj mít všichni radost a dáme do něj každej kus sebe! I malý příspěvek se počítá!
 
 Zde zmiňuju několik možností:
 
