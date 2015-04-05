@@ -18,9 +18,11 @@ public class PigeonPooper : MonoBehaviour {
 			if (collider != null) {
 				GameObject person = collider.transform.parent.gameObject;
 
-				person.GetComponent<PersonPoopReceiver>().ReceivePoop();
+				bool personWasPooped = person.GetComponent<PersonPoopReceiver>().ReceivePoop();
 
-				scoreUpdater.AddScorePoints(20);
+				if (personWasPooped) {
+					scoreUpdater.AddScorePoints(20);
+				}
 			}
 		}
 	}
