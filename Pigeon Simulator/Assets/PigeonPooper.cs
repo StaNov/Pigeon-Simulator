@@ -5,6 +5,7 @@ public class PigeonPooper : MonoBehaviour {
 
 	public Transform ass;
 	public ScoreUpdater scoreUpdater;
+	public PoopSupplyUpdater poopSupplyUpdater;
 	
 	void Start () {
 	
@@ -12,6 +13,8 @@ public class PigeonPooper : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Space)) {
+			poopSupplyUpdater.DecreasePoop(5);
+
 			Collider2D collider = Physics2D.OverlapPoint(ass.position);
 
 			if (collider != null) {
