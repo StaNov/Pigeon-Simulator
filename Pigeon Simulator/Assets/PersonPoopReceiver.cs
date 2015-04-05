@@ -3,8 +3,9 @@ using System.Collections;
 
 public class PersonPoopReceiver : MonoBehaviour {
 
+	public Material poopedPersonMaterial;
+
 	public void ReceivePoop () {
-		// TODO změn materiál na PoopedPerson
-		Debug.Log(gameObject.name + " has been pooped!");
+		GetComponentInChildren<Renderer> ().material = poopedPersonMaterial;
 	}
 }

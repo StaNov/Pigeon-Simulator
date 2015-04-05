@@ -9,8 +9,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 409720}
   - 33: {fileID: 3338210}
-  - 135: {fileID: 13574084}
   - 23: {fileID: 2335578}
+  - 58: {fileID: 5873162}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -26,6 +26,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 457240}
+  - 114: {fileID: 11432388}
   m_Layer: 0
   m_Name: Person
   m_TagString: Untagged
@@ -89,18 +90,32 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162424}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!135 &13574084
-SphereCollider:
+--- !u!58 &5873162
+CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 162424}
+  m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .5
-  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11432388
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67d46caf633509242943cffce7cefa3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poopedPersonMaterial: {fileID: 2100000, guid: db2335ff41629e847b0c92bcc611d4b3,
+    type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
