@@ -12,11 +12,10 @@ public class PigeonPooper : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Space)) {
-			// TODO pokad, co je pod tebou			
 			Collider2D collider = Physics2D.OverlapPoint(ass.position);
 
 			if (collider != null) {
-				GameObject person = collider.transform.parent.gameObject;
+				GameObject person = collider.transform.parent.parent.gameObject;
 
 				bool personWasPooped = person.GetComponent<PersonPoopReceiver>().ReceivePoop();
 
