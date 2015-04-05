@@ -49,6 +49,7 @@
      <Compile Include="Assets\PersonPoopReceiver.cs" />
      <Compile Include="Assets\PigeonController.cs" />
      <Compile Include="Assets\PigeonPooper.cs" />
+     <Compile Include="Assets\ScoreUpdater.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

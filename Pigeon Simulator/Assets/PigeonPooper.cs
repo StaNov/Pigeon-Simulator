@@ -4,6 +4,7 @@ using System.Collections;
 public class PigeonPooper : MonoBehaviour {
 
 	public Transform ass;
+	public ScoreUpdater scoreUpdater;
 	
 	void Start () {
 	
@@ -18,6 +19,8 @@ public class PigeonPooper : MonoBehaviour {
 				GameObject person = collider.transform.parent.gameObject;
 
 				person.GetComponent<PersonPoopReceiver>().ReceivePoop();
+
+				scoreUpdater.AddScorePoints(20);
 			}
 		}
 	}
