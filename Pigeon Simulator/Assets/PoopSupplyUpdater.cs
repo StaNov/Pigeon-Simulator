@@ -16,6 +16,10 @@ public class PoopSupplyUpdater : MonoBehaviour {
 		Render ();
 	}
 
+	public int GetPoopSupply() {
+		return poopSupply;
+	}
+
 	private void Render() {
 		GetComponent<Text>().text = "Munice: " + poopSupply;
 	}

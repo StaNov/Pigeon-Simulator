@@ -13,6 +13,11 @@ public class PigeonPooper : MonoBehaviour {
 
 	void Update () {
 		if (Input.GetKeyDown (KeyCode.Space)) {
+
+			if (poopSupplyUpdater.GetPoopSupply() < 5) {
+				return;
+			}
+
 			poopSupplyUpdater.DecreasePoop(5);
 
 			Collider2D collider = Physics2D.OverlapPoint(ass.position);
