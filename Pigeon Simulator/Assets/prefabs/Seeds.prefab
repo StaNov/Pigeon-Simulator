@@ -111,6 +111,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 444726}
   - 58: {fileID: 5828120}
+  - 114: {fileID: 11498448}
   m_Layer: 0
   m_Name: Seeds
   m_TagString: Untagged
@@ -149,7 +150,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147758}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.17000008, y: 4.34000015, z: 0}
+  m_LocalPosition: {x: -3.69182205, y: -4.0352025, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 407066}
@@ -407,6 +408,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: .769999981
+--- !u!114 &11498448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad041db06849654099d1ebc50f63a58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  remaining: 20
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -1619,6 +1619,7 @@ GameObject:
   - 114: {fileID: 2075368290}
   - 50: {fileID: 2075368291}
   - 114: {fileID: 2075368292}
+  - 114: {fileID: 2075368293}
   m_Layer: 0
   m_Name: Pigeon
   m_TagString: Untagged
@@ -1684,6 +1685,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ass: {fileID: 1837882918}
   scoreUpdater: {fileID: 1880327880}
+  poopSupplyUpdater: {fileID: 565282488}
+--- !u!114 &2075368293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2075368288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da754f668e56f6448ab489e1fad199a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   poopSupplyUpdater: {fileID: 565282488}
 --- !u!4 &2129775909
 Transform:

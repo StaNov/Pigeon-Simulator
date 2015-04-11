@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Food.cs" />
+     <Compile Include="Assets\FoodEater.cs" />
      <Compile Include="Assets\PersonMover.cs" />
      <Compile Include="Assets\PersonPoopReceiver.cs" />
      <Compile Include="Assets\PigeonController.cs" />

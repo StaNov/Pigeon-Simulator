@@ -4,23 +4,28 @@ using System.Collections;
 
 public class PoopSupplyUpdater : MonoBehaviour {
 
-	private int poopSupply = 100;
+	private double poopSupply = 100.0;
 
 	// Use this for initialization
 	void Start () {
 		Render ();
 	}
-
-	public void DecreasePoop (int poopAmount) {
+	
+	public void DecreasePoop (double poopAmount) {
 		poopSupply -= poopAmount;
 		Render ();
 	}
+	
+	public void IncreasePoop (double poopAmount) {
+		poopSupply += poopAmount;
+		Render ();
+	}
 
-	public int GetPoopSupply() {
+	public double GetPoopSupply() {
 		return poopSupply;
 	}
 
 	private void Render() {
-		GetComponent<Text>().text = "Munice: " + poopSupply;
+		GetComponent<Text>().text = "Munice: " + Mathf.RoundToInt((float) poopSupply);
 	}
 }
