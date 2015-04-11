@@ -5,7 +5,7 @@ public class Food : MonoBehaviour {
 
 	public double remaining = 20.0;
 
-	private double bit = 0.1;
+	public double bit = 0.1;
 
 	public double Bite() {
 		remaining -= bit;

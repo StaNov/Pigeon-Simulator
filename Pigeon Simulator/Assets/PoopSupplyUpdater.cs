@@ -4,7 +4,7 @@ using System.Collections;
 
 public class PoopSupplyUpdater : MonoBehaviour {
 
-	private double poopSupply = 100.0;
+	private double poopSupply = 0.0;
 
 	// Use this for initialization
 	void Start () {

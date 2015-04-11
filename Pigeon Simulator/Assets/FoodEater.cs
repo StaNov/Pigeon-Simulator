@@ -3,7 +3,7 @@ using System.Collections;
 
 public class FoodEater : MonoBehaviour {
 
-	public PoopSupplyUpdater poopSupplyUpdater;
+	public FoodUpdater foodUpdater;
 
 	private Collider2D currentlyEatenFood = null;
 
@@ -22,7 +22,7 @@ public class FoodEater : MonoBehaviour {
 
 		double bitten = currentlyEatenFood.gameObject.GetComponent<Food>().Bite();
 
-		poopSupplyUpdater.IncreasePoop(bitten);
+		foodUpdater.AddFood(bitten);
 		// TODO kolidovat jenom zobáček, ne celý holub
 	}
 }

@@ -48,10 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Food.cs" />
      <Compile Include="Assets\FoodEater.cs" />
+     <Compile Include="Assets\FoodUpdater.cs" />
      <Compile Include="Assets\PersonMover.cs" />
      <Compile Include="Assets\PersonPoopReceiver.cs" />
      <Compile Include="Assets\PigeonController.cs" />
      <Compile Include="Assets\PigeonPooper.cs" />
+     <Compile Include="Assets\PoopCreator.cs" />
      <Compile Include="Assets\PoopSupplyUpdater.cs" />
      <Compile Include="Assets\ScoreUpdater.cs" />
  <Reference Include="UnityEngine.UI">
