@@ -18,4 +18,8 @@ public class ScoreUpdater : MonoBehaviour {
 	private void RenderScoreBox() {
 		GetComponent<Text> ().text = "Skóre: " + currentPoints;
 	}
+
+	public int GetScore() {
+		return currentPoints;
+	}
 }

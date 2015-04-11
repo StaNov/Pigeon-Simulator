@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Food.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PoopCreator.cs">
     <Files>
       <File FileName="Assets\PoopSupplyUpdater.cs" Line="32" Column="1" />
-      <File FileName="Assets\FoodUpdater.cs" Line="7" Column="32" />
-      <File FileName="Assets\PoopCreator.cs" Line="8" Column="39" />
+      <File FileName="Assets\FoodUpdater.cs" Line="10" Column="13" />
+      <File FileName="Assets\PoopCreator.cs" Line="20" Column="11" />
       <File FileName="Assets\FoodEater.cs" Line="1" Column="1" />
       <File FileName="Assets\Food.cs" Line="8" Column="8" />
+      <File FileName="Assets\LifeUpdater.cs" Line="15" Column="74" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

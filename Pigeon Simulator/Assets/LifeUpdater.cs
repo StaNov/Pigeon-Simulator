@@ -4,7 +4,11 @@ using System.Collections;
 
 public class LifeUpdater : MonoBehaviour {
 
-	private double life = 100;
+	public double life = 100;
+
+	void Start() {
+		Render ();
+	}
 
 	public void DecreaseLife (double amount) {
 		life -= amount;
@@ -13,5 +17,9 @@ public class LifeUpdater : MonoBehaviour {
 
 	private void Render() {
 		GetComponent<Text> ().text = "Život: " + Mathf.CeilToInt((float) life);
+	}
+
+	public double GetLife() {
+		return life;
 	}
 }

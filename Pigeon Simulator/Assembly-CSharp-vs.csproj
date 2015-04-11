@@ -49,6 +49,7 @@
      <Compile Include="Assets\Food.cs" />
      <Compile Include="Assets\FoodEater.cs" />
      <Compile Include="Assets\FoodUpdater.cs" />
+     <Compile Include="Assets\GameOverHandler.cs" />
      <Compile Include="Assets\LifeUpdater.cs" />
      <Compile Include="Assets\PersonMover.cs" />
      <Compile Include="Assets\PersonPoopReceiver.cs" />

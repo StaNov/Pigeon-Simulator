@@ -4,7 +4,7 @@ using System.Collections;
 
 public class FoodUpdater : MonoBehaviour {
 
-	private double foodAmount = 30;
+	public double foodAmount = 30;
 
 	void Start() {
 		Render ();
@@ -21,7 +21,7 @@ public class FoodUpdater : MonoBehaviour {
 	}
 
 	private void Render() {
-		GetComponent<Text> ().text = "Jídlo: " + Mathf.RoundToInt((float) foodAmount);
+		GetComponent<Text> ().text = "Jídlo: " + Mathf.FloorToInt((float) foodAmount);
 	}
 
 	public double GetFoodAmount() {

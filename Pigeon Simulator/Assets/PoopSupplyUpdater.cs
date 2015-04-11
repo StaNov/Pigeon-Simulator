@@ -26,6 +26,6 @@ public class PoopSupplyUpdater : MonoBehaviour {
 	}
 
 	private void Render() {
-		GetComponent<Text>().text = "Munice: " + Mathf.RoundToInt((float) poopSupply);
+		GetComponent<Text>().text = "Munice: " + Mathf.FloorToInt((float) poopSupply);
 	}
 }
