@@ -51,6 +51,7 @@ public class PigeonController : MonoBehaviour {
 			}
 
 			isFlying = ! isFlying;
+			GetComponentInChildren<CircleCollider2D>().enabled = ! isFlying;
 			switchFlying = false;
 		}
 		
