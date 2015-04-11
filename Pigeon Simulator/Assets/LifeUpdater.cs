@@ -22,4 +22,16 @@ public class LifeUpdater : MonoBehaviour {
 	public double GetLife() {
 		return life;
 	}
+
+
+	// singleton
+	private static LifeUpdater instance;
+
+	void Awake() {
+		instance = this;
+	}
+
+	public static LifeUpdater getInstance() {
+		return instance;
+	}
 }

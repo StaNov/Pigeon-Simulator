@@ -25,7 +25,7 @@ public class PigeonController : MonoBehaviour {
 		rotateRight = Input.GetKey (KeyCode.RightArrow);
 		rotateLeft = Input.GetKey (KeyCode.LeftArrow);
 		goForward = Input.GetKey (KeyCode.UpArrow);
-		switchFlying = Input.GetKeyDown(KeyCode.RightControl);
+		switchFlying = Input.GetKeyDown(KeyCode.M);
 	}
 	
 	void FixedUpdate () {

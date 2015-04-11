@@ -51,6 +51,7 @@
      <Compile Include="Assets\FoodUpdater.cs" />
      <Compile Include="Assets\GameOverHandler.cs" />
      <Compile Include="Assets\LifeUpdater.cs" />
+     <Compile Include="Assets\PersonKicker.cs" />
      <Compile Include="Assets\PersonMover.cs" />
      <Compile Include="Assets\PersonPoopReceiver.cs" />
      <Compile Include="Assets\PigeonController.cs" />
