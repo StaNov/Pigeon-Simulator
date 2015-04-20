@@ -47,7 +47,7 @@ GameObject:
   - 114: {fileID: 11497008}
   m_Layer: 0
   m_Name: Person
-  m_TagString: Untagged
+  m_TagString: person
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -161,8 +161,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 176646}
-  m_LocalRotation: {x: 0, y: 0, z: .999902546, w: .0139621291}
-  m_LocalPosition: {x: -2.13000011, y: 3.80999994, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: .316477031, w: .948600233}
+  m_LocalPosition: {x: 7.92999983, y: -2.48000002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 406462}

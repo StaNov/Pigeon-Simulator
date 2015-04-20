@@ -11,6 +11,5 @@ public class PersonMover : MonoBehaviour {
 
 	void FixedUpdate () {
 		rigidbody2D.AddRelativeForce(Vector2.up);
-		transform.Rotate (0, 0, 1);
 	}
 }
